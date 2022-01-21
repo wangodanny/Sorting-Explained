@@ -21,3 +21,4 @@ def bubble(nums):
         print("No swaps required.\n")
     print(nums)
     input("Press enter to continue\n")
+  print("All done")

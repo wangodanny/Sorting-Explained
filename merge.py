@@ -2,7 +2,7 @@
 def mergeSortExplain(nums):
   print("\nMerge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, sorts them, and then merges the two sorted halves.\n")
   
-  print("Starting array:"+str(nums))
+  print("Starting array:"+str(nums)+"\n")
   #Define the sorting function, which takes in the input from the user.
   def mergeSort(nums):
     if len(nums) > 1:
@@ -47,6 +47,7 @@ def mergeSortExplain(nums):
         j += 1
         k += 1
       print("\nThe array now looks like this: "+str(nums))
+      input("Press enter to continue\n")
   mergeSort(nums)
   print("All done!")
    

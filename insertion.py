@@ -9,11 +9,11 @@ def insertion(nums):
     # Move elements of nums[0..i-1], that are greater than key, to one position ahead of their current position
     j = i-1
     while j >= 0 and key < nums[j] :
-      print(str(nums[j]) + " is bigger than "+ str(key) + " so it is being moved.\n")
+      print("\n"+str(nums[j]) + " is bigger than "+ str(key) + " so it is being moved.")
       nums[j + 1] = nums[j]
       j -= 1
       nums[j + 1] = key
     print ("\nArray Pass:", i)
     print (nums)
-
-  #Add iteration passes!
+    input("\nPress enter to continue\n")
+  print("All done")

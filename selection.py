@@ -9,13 +9,14 @@ def selection(nums):
     for j in range( index +1, len(nums)):
       #If the new number is smaller than the current number in sorted array then swap them
       if nums[min_index] > nums[j]:
-        print("\n"+str(nums[j])+" is smaller than "+str(nums[min_index])+ " so it is being moved to the start")
+        print("\n"+str(nums[j])+" is smaller than "+str(nums[min_index])+ " so it is being moved to the start.\n")
         min_index = j
         #Swap the minimum value with the compared value then output
         nums[index], nums[min_index] = nums[min_index], nums[index]
         print(nums)
       else:
-        print("\nNo changes here.")
+        print("\nNo changes here.\n")
         print(nums)
+      input("Press enter to continue\n")
 
   print("\nAll done!")

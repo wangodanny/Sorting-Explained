@@ -11,6 +11,7 @@ def quickSortExplain(start, end, nums):
     pivot = nums[pivot_index]
     print("The current pivot is: "+ str(pivot))
     print ("The array currently looks like this: "+str(nums)+"\n")
+    input("Press enter to continue\n")
 	
 	  # This loop runs till start pointer crosses end pointer, and when it does we swap the pivot with element on end pointer
     while start < end:
