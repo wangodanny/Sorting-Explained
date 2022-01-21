@@ -1,9 +1,3 @@
-#Requirements:
-# Quick, Selection, Bubble, Insertion, Merge - added
-# Explain step by step - ongoing
-# Enable user to pick the algorithm - added
-# Enable user input. - added
-
 import random
 import selection
 import quicksort

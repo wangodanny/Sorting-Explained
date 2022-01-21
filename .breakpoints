@@ -11,16 +11,16 @@
     "quicksort.py": [
       {
         "id": "a08a4258-f90e-4df2-b379-c496fcd6a615",
-        "line": 13,
-        "version": 741,
-        "index": 599
+        "line": 16,
+        "version": 984,
+        "index": 802
       }
     ],
     "selection.py": [
       {
         "id": "3f72a305-8145-40af-8e6a-d259143f8dfb",
         "line": 3,
-        "version": 831,
+        "version": 1019,
         "index": 93
       }
     ]
