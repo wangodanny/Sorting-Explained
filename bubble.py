@@ -14,4 +14,5 @@ def bubble(nums):
           # Swap if the element found is greater than the next element (thanks selection sort for a swapping method that does not need temp values)
           if nums[j] > nums[j+1]:
               nums[j], nums[j+1] = nums[j+1], nums[j]
-  print(nums)
+      print("Array pass:", i)
+      print(nums)
